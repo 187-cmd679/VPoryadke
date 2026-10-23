@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_background">#121212</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="surface_color">#1E1E1E</color>
+    <color name="text_main">#E0E0E0</color>
+    <color name="text_secondary">#ADB5BD</color>
+    <color name="icon_tint_main">#E0E0E0</color>
+    <color name="handle_tint">#D7D7D7</color>
+    <color name="empty_btn_bg">#121212</color>
+    <color name="empty_btn_text">#64B5F6</color>
+    <color name="search_bg">#2C2C2E</color>
+    <color name="icon_tint">#E0E0E0</color>
+</resources>

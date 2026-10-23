@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Aptechka" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Aptechka" parent="Base.Theme.Aptechka" />
+    <style name="CustomPickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/empty_btn_text</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="android:windowIsFloating">true</item>
+
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomTimeTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/empty_btn_text</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/empty_btn_text</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="android:windowIsFloating">true</item>
+
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>
